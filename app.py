@@ -102,7 +102,8 @@ response = AgGrid(
     update_mode=GridUpdateMode.MODEL_CHANGED,
     data_return_mode=DataReturnMode.FILTERED_AND_SORTED,
     fit_columns_on_grid_load=False,
-    columns_auto_size_mode=1
+    height = 1000,
+    width = 1000
 )
 
 df = pd.DataFrame(response["selected_rows"])

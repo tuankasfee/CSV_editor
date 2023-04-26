@@ -25,8 +25,7 @@ def _max_width_():
     """,
         unsafe_allow_html=True,
     )
-st.set_page_config(layout="wide")
-st.set_page_config(page_icon="✂️", page_title="CSV Wrangler")
+st.set_page_config(page_icon="✂️", page_title="CSV Wrangler", layout="wide")
 
 st.title("CSV Wrangler")
 

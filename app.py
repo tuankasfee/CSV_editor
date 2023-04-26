@@ -101,8 +101,8 @@ response = AgGrid(
     enable_enterprise_modules=True,
     update_mode=GridUpdateMode.MODEL_CHANGED,
     data_return_mode=DataReturnMode.FILTERED_AND_SORTED,
-    fit_columns_on_grid_load=False,
-    height = 1000,
+    #fit_columns_on_grid_load=False,
+    height = 800,
     width = 1500
 )
 
